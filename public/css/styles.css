@@ -1,0 +1,86 @@
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+
+.delete {
+  display: inline;
+}
+
+/* つぶやきのスタイル */
+.posts {
+  padding: 0;
+}
+.post {
+  margin-bottom: 30px;
+  list-style: none;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.post_body_heading {
+  background-color: #dddddd;
+  font-weight: bold;
+}
+.post_body_heading img {
+  width: 50px;
+}
+.post_body_main_img {
+  width: 100px;
+}
+.post_body_main_img img{
+  width: 100%;
+}
+.post_body_main_tags ul {
+  display: flex;
+  list-style: none;
+}
+.post_body_main_tags li{
+  margin-right: 10px;
+}
+.post_replies {
+  background-color: #eeeeee;
+  font-size: 13px;
+}
+.post_replies_header{
+  font-weight: bold;
+}
+.post_replies_body {
+  padding: 0;
+  list-style: none;
+}
+
+.like_button {
+  cursor: pointer;
+}
+.like {
+  display: inline;
+}
+
+.follow {
+  cursor: pointer;
+}
+
+.recommend_users img{
+  width: 100px;
+}
+
+.user_profile img {
+  width: 100px;
+}
+
+.user_list img{
+  width: 100px;
+}
